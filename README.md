@@ -17,13 +17,13 @@ would say "Number next", then say what they would want as the next item in the n
 For example, the "Number next" item after saying the "Number one" item would be the second item in the numbered list.
 The doctor would then repeat the "Number next" steps until they reach the end of their numbered list.
 
-The functionality is implemented by `Transcription.__transcript_formatted()` method in the `Transcription` class.
+The functionality is implemented by `Transcription._transcript_formatted()` method in the `Transcription` class.
 
 ### Testing
 
 To run the tests, run the following command:
 
-```python -m unittest unit_test_transcription.py```
+```python -m unittest unit_test_transcription.py -v```
 
 OR if you have Docker installed, run the following command:
 
