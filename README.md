@@ -24,3 +24,7 @@ The functionality is implemented by `Transcription.__transcript_formatted()` met
 To run the tests, run the following command:
 
 ```python -m unittest unit_test_transcription.py```
+
+OR if you have Docker installed, run the following command:
+
+```docker build -t transcription-dev . && docker run transcription-dev```
